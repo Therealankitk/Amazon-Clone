@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon.com</title>
+    <link rel="icon" type="image/x-icon" href="imgs/logo.jpg" border-radius="10px">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body style="background-color: #e3e6e6;">
+    <header>
+        <div class="navbar">
+            <div class="nav-logo border">
+                <div class="logo">
+
+                </div>
+            </div>
+
+            <div class="nav-address border">
+                <p class="add-first">Deliver to</p>
+                <div class="add-icon">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p class="add-sec"><b>India</b></p>
+                </div>
+            </div>
+
+            <div class="nav-search">
+                <select class="search-opt">
+                    <option>All</option>
+                </select>
+                <input type="text" placeholder="Search Amazon" class="search-input">
+                <div class="search-icon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+
+            <div class="lang border">
+                <img src="imgs/download.png" height="13px">
+                <p class="langtxt"><b>EN</b></p>
+                <div class="drop-icon">
+                    <i class="fa-solid fa-caret-down"></i>
+                </div>
+            </div>
+
+            <div class="signin border">
+                <p><span>Hello, sign in</span></p>
+                <div class="flexi">
+                    <p class="signsec">Account & Lists</p>
+                    <div class="drop-icon">
+                        <i class="fa-solid fa-caret-down"></i>
+                    </div>
+                </div>
+                <div class="dropsign">
+                    <button class="signbtn">Sign In</button>
+                    <p style="margin-top:4px;color:#666666;font-size:0.6rem;">New customer? <a href="#link">start here</a></p><br>
+                    <div class="cont flexi">    
+                        <div class="account">
+                            <h4>Your Lists</h4>
+                            <ul class="userlist acclist">
+                                <li class="accli"><a href="#link" class="acca">Create a list</a></li>
+                                <li class="accli"><a href="#link" class="acca">Find a list or registery</a></li>
+                            </ul>
+                        </div>
+                        <div class="lists">
+                            <h4>Your account</h4>
+                            <ul class="acclist">
+                                <li class="accli"><a class="acca" href="">Account</a></li>
+                                <li class="accli"><a href="" class="acca">Orders</a></li>
+                                <li class="accli"><a href="" class="acca">Recommendations</a></li>
+                                <li class="accli"><a href="" class="acca">Browsing History</a></li>
+                                <li class="accli"><a href="" class="acca">Watchlist</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="orders border" style="padding:10px;">
+                <p style="font-size:0.7rem;">Returns</p>
+                <p style="font-size:1rem;font-weight:700;">& Orders</p>
+            </div>
+
+            <div class="cart border" style="padding:15px;">
+                    <div class="cart-icon">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </div>
+            </div>
+        </div>
+    
+        <div class="navmenu flexi">
+            <ul class="navlist">
+                <li class="navli border"><a href="#link" class="nava"><i class="fa-solid fa-bars"></i> All</a></li>
+                <li class="navli border"><a href="#link" class="nava">Today's Deals</a></li>
+                <li class="navli border"><a href="#link" class="nava">Customer Service</a></li>
+                <li class="navli border"><a href="#link" class="nava">Registry</a></li>
+                <li class="navli border"><a href="#link" class="nava">Gift Cards</a></li>
+                <li class="navli border"><a href="#link" class="nava">Sell</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="hero-sec" style="position:relative;min-height:100vh;">
+        <div class="arrows">
+            <button class="prev" onclick="changeSlides(-1)"><i class="fa-solid fa-angle-left"></i></button>
+            <button class="next" onclick="changeSlides(1)"><i class="fa-solid fa-angle-right"></i></button>
+        </div>
+        <div class="shop-sec">
+            <div class="amaz-msg">
+                <p>You are on amazon.com. You can also shop on Amazon India for millions of products with fast local delivery. <a href="#link" class="msga">Click here to go to amazon.in</a></p>
+            </div>
+            <div class="box">
+                <h2 style="padding-bottom:15px;font-size: 21px;">Gaming accessories</h2>
+                <div class="game1 game">
+                    <a href="#link1" class="gameimg"><img src="imgs/headset.jpg"><figcaption>Headsets</figcaption></a>
+                    <a href="#link2" class="gameimg"><img src="imgs/keybord.jpg"><figcaption>Keyboards</figcaption></a>
+                </div>
+                <div class="game2 game">
+                    <a href="#link3" class="gameimg" style="padding-right:40px;"><img src="imgs/mice.jpg"><figcaption>Computer mice</figcaption></a>
+                    <a href="#link4" class="gameimg"><img src="imgs/chair.jpg"><figcaption>Chairs</figcaption></a>
+                </div>
+                <a href="#link" class="more">See more</a>
+            </div>
+            <div class="box">
+                <h2 style="padding-bottom:15px;font-size: 21px;">Small gifts under $20</h2>
+                <div class="gifts" style="padding-bottom:5px;">
+                    <a href="#link"><img src="imgs/gift.jpg"></a>
+                </div>
+                <a href="#link" class="more">Shop now</a>
+            </div>
+            <div class="box">
+                <h2 style="padding-bottom:15px;font-size: 21px;">Deals in PCs</h2>
+                <div class="gifts" style="padding-bottom:5px;">
+                    <a href="#link"><img src="imgs/cpu.jpg"></a>
+                </div>
+                <a href="#link" class="more">Shop now</a>
+            </div>
+            <div class="box">
+                <h2 style="padding-bottom:15px;font-size: 21px;">Delightful deals for everyone</h2>
+                <div class="gifts" style="padding-bottom:5px;">
+                    <a href="#link"><img src="imgs/fest.jpg" style="height: 275px;width: 247px;"></a>
+                </div>
+                <a href="#link" class="more">Shop now</a>
+            </div>
+            <div class="box">
+                <h2 style="padding-bottom:15px;font-size: 21px;">Shop for your home essentials</h2>
+                <div class="game1 game">
+                    <a href="#link1" class="gameimg"><img src="imgs/cleantool.jpg" style="height:100px;"><figcaption>Cleaning Tools</figcaption></a>
+                    <a href="#link2" class="gameimg"><img src="imgs/homstor.jpg" style="height:100px;"><figcaption>Home Storage</figcaption></a>
+                </div>
+                <div class="game" style="padding-top:25px">
+                    <a href="#link3" class="gameimg" style="padding-right:10px;padding-bottom:25px;"><img src="imgs/homdecon.jpg" style="height:100px;"><figcaption>Home Decor</figcaption></a>
+                    <a href="#link4" class="gameimg"><img src="imgs/bed.jpg" style="height:100px;"><figcaption>Bedding</figcaption></a>
+                </div>
+                <a href="#link" class="more">Discover more in Home</a>
+            </div>
+            <div class="box">
+                <h2 style="padding-bottom:15px;font-size: 21px;">Top categories in Kitchen appliances</h2>
+                <div class="game1 game">
+                    <a href="#link1" class="gameimg"><img src="imgs/cook.jpg" style="height:130px;"><figcaption>Cooker</figcaption></a>
+                </div>
+                <div class="game" style="padding-top:25px">
+                    <a href="#link3" class="gameimg" style="padding-right:5px;padding-bottom:25px;"><img src="imgs/coff.jpg" style="height:70px;width:80px;"><figcaption>Coffee</figcaption></a>
+                    <a href="#link4" class="gameimg" style="padding-right:5px;"><img src="imgs/pot.jpg" style="height:70px;width:80px;"><figcaption>Pots and Pans</figcaption></a>
+                    <a href="#link2" class="gameimg" style="padding-right:5px;"><img src="imgs/ketties.jpg" style="height:70px;width:80px;"><figcaption>Ketties</figcaption></a>
+                </div>
+                <a href="#link" class="more">Explore all products in kitchen</a>
+            </div>
+            <div class="box">
+                <h2 style="padding-bottom:15px;font-size: 21px;">Shop deals in Fashion</h2>
+                <div class="game1 game">
+                    <a href="#link1" class="gameimg" style="padding-right:25px;"><img src="imgs/jean.jpg" style="height:110px;"><figcaption>Jeans under $50</figcaption></a>
+                    <a href="#link2" class="gameimg"><img src="imgs/tops.jpg" style="height:110px;"><figcaption>Tops under $25</figcaption></a>
+                </div>
+                <div class="game" style="padding-top:25px">
+                    <a href="#link3" class="gameimg" style="padding-right:10px;padding-bottom:25px;"><img src="imgs/dress.jpg" style="height:110px;"><figcaption>Dresses under $30</figcaption></a>
+                    <a href="#link4" class="gameimg"><img src="imgs/shoes.jpg" style="height:110px;"><figcaption>Shoes under $50</figcaption></a>
+                </div>
+                <a href="#link" class="more">See all deals</a>
+            </div>
+            <div class="box">
+                <h2 style="padding-bottom:15px;font-size: 21px;">Get your game on</h2>
+                <div class="gifts" style="padding-bottom:5px;">
+                    <a href="#link"><img src="imgs/game.jpg"></a>
+                </div>
+                <a href="#link" class="more">Shop Gaming</a>
+            </div>
+            <div class="slider">
+                <div class="slider-label" style="display:flex;">
+                    <h2 style="font-size: 21px;padding-right:20px;">Here come Holiday Specials</h2>
+                    <a href="#link" class="more">Explore now</a>
+                </div>
+                <div class="arrows" style="z-index:1;position: absolute !important;">
+                    <button class="left-slide"><i class="fa-solid fa-angle-left"></i></button>
+                    <button class="right-slide"><i class="fa-solid fa-angle-right"></i></button>
+                </div>
+                <div class="imgs" style="display:flex;transition: all 1s ease;">
+                    <a href="link1"><img src="imgs/deal1.jpg" class="dealimg"></a>
+                    <a href="link2"><img src="imgs/deal2.jpg" class="dealimg"></a>
+                    <a href="link3"><img src="imgs/deal3.jpg" class="dealimg"></a>
+                    <a href="link4"><img src="imgs/deal4.jpg" class="dealimg"></a>
+                    <a href="link5"><img src="imgs/deal5.jpg" class="dealimg"></a>
+                    <a href="link6"><img src="imgs/deal6.jpg" class="dealimg"></a>
+                    <a href="link7"><img src="imgs/deal7.jpg" class="dealimg"></a>
+                    <a href="link8"><img src="imgs/deal8.jpg" class="dealimg"></a>
+                    <a href="link9"><img src="imgs/deal9.jpg" class="dealimg"></a>
+                    <a href="link10"><img src="imgs/deal10.jpg" class="dealimg"></a>
+                    <a href="link11"><img src="imgs/deal11.jpg" class="dealimg"></a> 
+                </div>
+            </div>
+            <div class="slider slider2">
+                <div class="slider-label" style="display:flex;">
+                    <h2 style="font-size: 21px;padding-right:20px;">Best Sellers in Sports & Outdoors</h2>
+                </div>
+                <div class="arrows" style="z-index:1;position: absolute !important;">
+                    <button class="left-slide left-slide2"><i class="fa-solid fa-angle-left"></i></button>
+                    <button class="right-slide right-slide2"><i class="fa-solid fa-angle-right"></i></button>
+                </div>
+                <div class="imgs imgs2" style="display:flex;transition: all 1s ease;">
+                    <a href="link1"><img src="imgs/sport1.jpg" class="dealimg"></a>
+                    <a href="link2"><img src="imgs/sport2.jpg" class="dealimg"></a>
+                    <a href="link3"><img src="imgs/sport3.jpg" class="dealimg"></a>
+                    <a href="link4"><img src="imgs/sport4.jpg" class="dealimg"></a>
+                    <a href="link5"><img src="imgs/sport5.jpg" class="dealimg"></a>
+                    <a href="link6"><img src="imgs/sport6.jpg" class="dealimg"></a>
+                    <a href="link7"><img src="imgs/sport7.jpg" class="dealimg"></a>
+                    <a href="link8"><img src="imgs/sport8.jpg" class="dealimg"></a>
+                    <a href="link9"><img src="imgs/sport9.jpg" class="dealimg"></a>
+                    <a href="link10"><img src="imgs/sport10.jpg" class="dealimg"></a>
+                    <a href="link11"><img src="imgs/sport11.jpg" class="dealimg"></a> 
+                </div>
+            </div>
+            <div class="box">
+                <h2 style="padding-bottom:15px;font-size: 21px;">Level up your beauty routine</h2>
+                <div class="game1 game">
+                    <a href="#link1" class="gameimg" style="padding-right:20px;"><img src="imgs/makup.jpg" style="height: 110px;width: 110px;aspect-ratio: 82/51;object-fit:none;"><figcaption>Makeup</figcaption></a>
+                    <a href="#link2" class="gameimg"><img src="imgs/brush.jpg" style="height: 110px;width: 110px;aspect-ratio: 82/51;object-fit:none;"><figcaption>Brushes</figcaption></a>
+                </div>
+                <div class="game" style="padding-top:25px">
+                    <a href="#link3" class="gameimg" style="padding-right:20px;padding-bottom:25px;"><img src="imgs/sponge.jpg" style="height: 110px;width: 110px;aspect-ratio: 82/51;object-fit:none;"><figcaption>Sponges</figcaption></a>
+                    <a href="#link4" class="gameimg"><img src="imgs/mirror.jpg" style="height: 110px;width: 110px;aspect-ratio: 82/51;object-fit:none;"><figcaption>Mirrors</figcaption></a>
+                </div>
+                <a href="#link" class="more">See more</a>
+            </div>
+            <div class="box">
+                <h2 style="padding-bottom:15px;font-size: 21px;">Most-loved watches</h2>
+                <div class="game1 game">
+                    <a href="#link1" class="gameimg" style="padding-right:10px;"><img src="imgs/womwat.jpg" style="height:120px;width:116px;aspect-ratio:93/58;object-fit:none;"><figcaption>Women</figcaption></a>
+                    <a href="#link2" class="gameimg"><img src="imgs/menwat.jpg" style="height:120px;width:116px;aspect-ratio:93/58;object-fit:none;"><figcaption>Men</figcaption></a>
+                </div>
+                <div class="game" style="padding-top:25px">
+                    <a href="#link3" class="gameimg" style="padding-right:10px;padding-bottom:25px;"><img src="imgs/girlwat.jpg" style="height:120px;width:116px;aspect-ratio:93/58;object-fit:none;"><figcaption>Girls</figcaption></a>
+                    <a href="#link4" class="gameimg"><img src="imgs/boywat.jpg" style="height:120px;width:116px;aspect-ratio:93/58;object-fit:none;"><figcaption>Boys</figcaption></a>
+                </div>
+                <a href="#link" class="more">Discover more</a>
+            </div>
+            <div class="box">
+                <h2 style="padding-bottom:15px;font-size: 21px;">Level up your gaming</h2>
+                <div class="game1 game">
+                    <a href="#link1" class="gameimg" style="padding-right:10px;"><img src="imgs/pcgam.jpg" style="height:120px;width:116px;aspect-ratio:93/58;object-fit:none;"><figcaption>PC gaming</figcaption></a>
+                    <a href="#link2" class="gameimg"><img src="imgs/xbox.jpg" style="height:120px;width:116px;aspect-ratio:93/58;object-fit:none;"><figcaption>Xbox</figcaption></a>
+                </div>
+                <div class="game" style="padding-top:25px">
+                    <a href="#link3" class="gameimg" style="padding-right:10px;padding-bottom:25px;"><img src="imgs/playsta.jpg" style="height:120px;width:116px;aspect-ratio:93/58;object-fit:none;"><figcaption>PlayStation</figcaption></a>
+                    <a href="#link4" class="gameimg"><img src="imgs/ninte.jpg" style="height:120px;width:116px;aspect-ratio:93/58;object-fit:none;"><figcaption>Nintendo Switch</figcaption></a>
+                </div>
+                <a href="#link" class="more">Shop the latest in gaming</a>
+            </div>
+            <div class="box">
+                <h2 style="padding-bottom:15px;font-size: 21px;">Score the top PCs & Accessories</h2>
+                <div class="game1 game">
+                    <a href="#link1" class="gameimg" style="padding-right:20px;"><img src="imgs/desk.jpg" style="height: 110px;width: 110px;aspect-ratio: 82/51;object-fit:none;"><figcaption>Desktops</figcaption></a>
+                    <a href="#link2" class="gameimg"><img src="imgs/lap.jpg" style="height: 110px;width: 110px;aspect-ratio: 82/51;object-fit:none;"><figcaption>Laptops</figcaption></a>
+                </div>
+                <div class="game" style="padding-top:25px">
+                    <a href="#link3" class="gameimg" style="padding-right:20px;padding-bottom:25px;"><img src="imgs/harddriv.jpg" style="height: 110px;width: 110px;aspect-ratio: 82/51;object-fit:none;"><figcaption>Hard Drives</figcaption></a>
+                    <a href="#link4" class="gameimg"><img src="imgs/pcacces.jpg" style="height: 110px;width: 110px;aspect-ratio: 82/51;object-fit:none;"><figcaption>PC Accessories</figcaption></a>
+                </div>
+                <a href="#link" class="more">See more</a>
+            </div>
+            <div class="slider slider3">
+                <div class="slider-label" style="display:flex;">
+                    <h2 style="font-size: 21px;padding-right:20px;">Top picks for India</h2>
+                </div>
+                <div class="arrows" style="z-index:1;position: absolute !important;">
+                    <button class="left-slide left-slide3"><i class="fa-solid fa-angle-left"></i></button>
+                    <button class="right-slide right-slide3"><i class="fa-solid fa-angle-right"></i></button>
+                </div>
+                <div class="imgs imgs3" style="display:flex;transition: all 1s ease;">
+                    <a href="link1"><img src="imgs/pick1.jpg" class="dealimg"></a>
+                    <a href="link2"><img src="imgs/pick2.jpg" class="dealimg"></a>
+                    <a href="link3"><img src="imgs/pick3.jpg" class="dealimg"></a>
+                    <a href="link4"><img src="imgs/pick4.jpg" class="dealimg"></a>
+                    <a href="link5"><img src="imgs/pick5.jpg" class="dealimg"></a>
+                    <a href="link6"><img src="imgs/pick6.jpg" class="dealimg"></a>
+                    <a href="link7"><img src="imgs/pick7.jpg" class="dealimg"></a>
+                    <a href="link8"><img src="imgs/pick8.jpg" class="dealimg"></a>
+                    <a href="link9"><img src="imgs/pick9.jpg" class="dealimg"></a>
+                    <a href="link10"><img src="imgs/pick10.jpg" class="dealimg"></a>
+                    <a href="link11"><img src="imgs/pick11.jpg" class="dealimg"></a> 
+                </div>
+            </div>
+
+        </div>
+        <div class="slides fade first">
+        </div>
+        <div class="slides fade second">
+        </div>
+        <div class="slides fade third">
+        </div>
+        <div class="slides fade fourth">
+        </div>
+        
+    </div>
+
+    <footer style="margin-top: 126em;position:relative;width:100%;max-width:100%;">
+        <div class="recomm" style="height: 186px;padding-top:40px;padding-bottom:0px;background-color:white;">
+            <div class="sign">
+                <h2 style="font-size: 24px;margin-bottom:5px;">See personalised recommendations</h2>
+                <button class="signbtn2">Sign in</button>
+                <p style="font-size: 11px;">New customer? <a href="signinlink" class="msga">Start here.</a></p>
+            </div>
+        </div>
+        <div class="backtop">
+            <p>Back to top</p>
+        </div>
+        <div class="footerlist" style="background-color: #232f3e;">
+            <div class="footlist" style="padding-top: 40px;display:inline-flex;align-items:center;">
+                <div class="flist" style="width: 140px !important;">
+                    <h2 style="font-size: 16px;margin:6px 0px 14px;color:#ffffff;">Get to Know us</h2>
+                    <ul>
+                        <li class="footli"><a href="link" class="foota">Careers</a></li>
+                        <li class="footli"><a href="link" class="foota">Blog</a></li>
+                        <li class="footli"><a href="link" class="foota">About Amazon</a></li>
+                        <li class="footli"><a href="link" class="foota">Investor Relations</a></li>
+                        <li class="footli"><a href="link" class="foota">Amazon Devices</a></li>
+                        <li class="footli"><a href="link" class="foota">Amazon Science</a></li>
+                    </ul>
+                    
+                </div>
+                <div class="flist">
+                    <h2 style="font-size: 16px;margin:6px 0px 14px;color:#ffffff;">Make Money with us</h2>
+                    <ul>
+                        <li class="footli"><a href="link" class="foota">Sell products on Amazon</a></li>
+                        <li class="footli"><a href="link" class="foota">Sell on Amazon Business</a></li>
+                        <li class="footli"><a href="link" class="foota">Sell apps on Amazon</a></li>
+                        <li class="footli"><a href="link" class="foota">Become an Affiliate</a></li>
+                        <li class="footli"><a href="link" class="foota">Advertise Your Products</a></li>
+                        <li class="footli"><a href="link" class="foota">Self-Publish with Us</a></li>
+                        <li class="footli"><a href="link" class="foota">Host an Amazon Hub</a></li>
+                        <li class="footli"><a href="link" class="foota">See More Make Money with Us</a></li>
+                    </ul>
+                </div>
+                <div class="flist">
+                    <h2 style="font-size: 16px;margin:6px 0px 14px;color:#ffffff;">Amazon Payment Products</h2>
+                    <ul>
+                        <li class="footli"><a href="link" class="foota">Amazon Business Card</a></li>
+                        <li class="footli"><a href="link" class="foota">Shop with Points</a></li>
+                        <li class="footli"><a href="link" class="foota">Reload Your Balance</a></li>
+                        <li class="footli"><a href="link" class="foota">Amazon Currency Converter</a></li>
+                    </ul>
+                </div>
+                <div class="flist">
+                    <h2 style="font-size: 16px;margin:6px 0px 14px;color:#ffffff;">Let Us Help You</h2>
+                    <ul>
+                        <li class="footli"><a href="link" class="foota">Amazon and COVID-19</a></li>
+                        <li class="footli"><a href="link" class="foota">Your Account</a></li>
+                        <li class="footli"><a href="link" class="foota">Your Orders</a></li>
+                        <li class="footli"><a href="link" class="foota">Shipping Rates & Policies</a></li>
+                        <li class="footli"><a href="link" class="foota">Returns & Replacements</a></li>
+                        <li class="footli"><a href="link" class="foota">Manage Your Content and Devices</a></li>
+                        <li class="footli"><a href="link" class="foota">Help</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footerline" style="margin-top:40px;border-top:1px solid #3a4553"></div>
+            <div class="footernav" style="margin: 10px 10px;height:68px">
+                <div class="logo" style="margin-right: 70px;cursor: pointer;"></div>
+                <div class="nav-lang">
+                    <div class="icontext" style="width:89px;height:20px;display:flex;align-items:center;">
+                        <i class="fa-solid fa-globe"></i>
+                        <p style="padding:0px 2px 0px 6px;">English</p>
+                    </div>
+                    <i class="fa-solid fa-caret-down"></i>
+                </div>
+                <div class="nav-lang">
+                    <div class="icontext" style="width:122px;height:21px;display:flex;align-items:center;">
+                        <i class="fa-solid fa-dollar-sign"></i>
+                        <p style="padding:0px 2px 0px 6px;">USD - U.S. Dollar</p>
+                    </div>
+                </div>
+                <div class="nav-lang">
+                    <div class="icontext" style="width:114px;height:20px;display:flex;align-items:center;">
+                        <img src="download.png" height="13px">
+                        <p style="padding:0px 2px 0px 6px;">United States</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footerlinks">
+                <table cellspacing="0px">
+                    <tbody>
+                        <tr class="row1">
+                            <td>
+                                <a href="link" class="footlink">
+                                    <p style="color:#dddddd">Amazon Music</p>
+                                    <p style="color:#999999">Stream<br>millions of<br>songs</p>
+                                </a>
+                            </td>
+                            <td>
+                                <a href="link" class="footlink">
+                                    <p style="color:#dddddd">Amazon Ads</p>
+                                    <p style="color:#999999">Reach customers<br>wherever they <br> spend their time</p>
+                                </a>
+                            </td>
+                            <td>
+                                <a href="link" class="footlink">
+                                    <p style="color:#dddddd">6pm</p>
+                                    <p style="color:#999999">Score deals <br> on fashion brands</p>
+                                </a>
+                            </td>
+                            <td>
+                                <a href="link" class="footlink">
+                                    <p style="color:#dddddd">AbeBooks</p>
+                                    <p style="color:#999999">Books, art <br> & collectibles</p>
+                                </a>
+                            </td>
+                            <td>
+                                <a href="link" class="footlink">
+                                    <p style="color:#dddddd">ACX</p>
+                                    <p style="color:#999999">Audiobook Publishing <br> Made Easy</p>
+                                </a>
+                            </td>
+                            <td>
+                                <a href="link" class="footlink">
+                                    <p style="color:#dddddd">Sell on Amazon</p>
+                                    <p style="color:#999999">Start a Selling <br> Account</p>
+                                </a>
+                            </td>
+                            <td>
+                                <a href="link" class="footlink">
+                                    <p style="color:#dddddd">Veeqo</p>
+                                    <p style="color:#999999">Shipping Software <br> Inventory Management</p>
+                                </a>
+                            </td>
+                        </tr>
+                        <tr class="row2">
+                            <td>
+                                <a href="link" class="footlink">
+                                    <p style="color:#dddddd">Amazon Business</p>
+                                    <p style="color:#999999">Everything For <br> Your Business</p>
+                                </a>
+                            </td>
+                            <td>
+                                <a href="link" class="footlink">
+                                    <p style="color:#dddddd">AmazonGlobal</p>
+                                    <p style="color:#999999">Ship Orders <br> Internationally</p>
+                                </a>
+                            </td>
+                            <td>
+                                <a href="link" class="footlink">
+                                    <p style="color:#dddddd">Home Services</p>
+                                    <p style="color:#999999">Experienced Pros <br> Happiness Guarantee</p>
+                                </a>
+                            </td>
+                            <td>
+                                <a href="link" class="footlink">
+                                    <p style="color:#dddddd">Amazon Web <br> Services </p>
+                                    <p style="color:#999999">Scalable Cloud <br> Computing Services</p>
+                                </a>
+                            </td>
+                            <td>
+                                <a href="link" class="footlink">
+                                    <p style="color:#dddddd">Audible</p>
+                                    <p style="color:#999999">Listen to Books & <br> Original <br> Audio Performances</p>
+                                </a>
+                            </td>
+                            <td>
+                                <a href="link" class="footlink">
+                                    <p style="color:#dddddd">Box office Mojo</p>
+                                    <p style="color:#999999">Find Movie <br> Box Office Data</p>
+                                </a>
+                            </td>
+                            <td>
+                                <a href="link" class="footlink">
+                                    <p style="color:#dddddd">Goodreads</p>
+                                    <p style="color:#999999">Book reviews <br> & recommendations</p>
+                                </a>
+                            </td>
+                        </tr>
+                        <tr class="row3">
+                            <td>
+                                <a href="link" class="footlink">
+                                    <p style="color:#dddddd">IMDb</p>
+                                    <p style="color:#999999">Movies, TV <br> & Celebrities	</p>
+                                </a>
+                            </td>
+                            <td>
+                                <a href="link" class="footlink">
+                                    <p style="color:#dddddd">IMDbPro</p>
+                                    <p style="color:#999999">Get Info <br> Entertainment <br> Professionals Need</p>
+                                </a>
+                            </td>
+                            <td>
+                                <a href="link" class="footlink">
+                                    <p style="color:#dddddd">Kindle Direct <br> Publishing</p>
+                                    <p style="color:#999999">Indie Digital & <br> Print Publishing <br> Made Easy</p>
+                                </a>
+                            </td>
+                            <td>
+                                <a href="link" class="footlink">
+                                    <p style="color:#dddddd">Prime Video <br> Direct</p>
+                                    <p style="color:#999999">Video Distribution <br> Made Easy</p>
+                                </a>
+                            </td>
+                            <td>
+                                <a href="link" class="footlink">
+                                    <p style="color:#dddddd">ShopBop</p>
+                                    <p style="color:#999999">Designer <br> Fashion Brands</p>
+                                </a>
+                            </td>
+                            <td>
+                                <a href="link" class="footlink">
+                                    <p style="color:#dddddd">Woot!</p>
+                                    <p style="color:#999999">Deals and <br> Shenanigans</p>
+                                </a>
+                            </td>
+                            <td>
+                                <a href="link" class="footlink">
+                                    <p style="color:#dddddd">Zappos</p>
+                                    <p style="color:#999999">Shoes & <br> Clothing</p>
+                                </a>
+                            </td>
+                        </tr>
+                        <tr class="row4">
+                            <td>
+                                <a href="link" class="footlink">
+                                    <p style="color:#dddddd">Ring</p>
+                                    <p style="color:#999999">Smart Home <br> Security Systems</p>
+                                </a>
+                            </td>
+                            <td>
+                                <a href="link" class="footlink">
+                                    <p style="color:#dddddd">eero WiFi</p>
+                                    <p style="color:#999999">Stream 4K Video <br> in Every Room</p> 
+                                </a>
+                            </td>
+                            <td>
+                                <a href="link" class="footlink">
+                                    <p style="color:#dddddd">Blink</p>
+                                    <p style="color:#999999">Smart Security <br> for Every Home</p>
+                                </a>
+                            </td>
+                            <td>
+                                <a href="link" class="footlink">
+                                    <p style="color:#dddddd">Neighbors App</p>
+                                    <p style="color:#999999">Real-Time Crime <br> & Safety Alerts</p>
+                                </a>
+                            </td>
+                            <td>
+                                <a href="link" class="footlink">
+                                    <p style="color:#dddddd">Amazon Subscription <br> Boxes</p>
+                                    <p style="color:#999999">Top subscription boxes - <br> right to your door</p>
+                                </a>
+                            </td>
+                            <td>
+                                <a href="link" class="footlink">
+                                    <p style="color:#dddddd">PillPack</p>
+                                    <p style="color:#999999">Pharmacy <br> Simplified</p>
+                                </a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <div class="termscond">
+                    <div class="conds">
+                        <a href="linktocond" class="condslink footlink">Conditions of Use</a>
+                        <a href="linktoprivacy" class="condslink footlink">Privacy Notice</a>
+                        <a href="linktodiscl" class="condslink footlink">Consumer Health Data Privacy Disclosure</a>
+                        <a href="linktoads" class="condslink footlink">Your Ads privacy Choices</a>
+                    </div>
+                    <div class="copyright">
+                        <i class="fa-regular fa-copyright" style="padding-right:4px;"></i>
+                        <p>1996-2025, Amazon.com, Inc. or its affiliates</p>
+                    </div>
+                    <div class="note">
+                        <p>This is a clone project!</p>
+                        <i class="fa-regular fa-face-smile-wink" style="padding-left:6px;"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </footer>
+
+    <script>
+        let index = 1;
+        showSlides(index);
+
+        function changeSlides(n) {
+            showSlides(index += n);
+        }
+
+        function currentSlide(n) {
+            showSlides(index = n);
+        }
+
+        function showSlides(n){
+            let i;
+            let slides = document.getElementsByClassName("slides");
+            if (n > slides.length){
+                index = 1
+            }
+            if (n < 1){
+                index = slides.length;
+            }
+            for (i=0;i<slides.length;i++){
+                slides[i].style.display = "none";
+            }
+            slides[index-1].style.display = "block";
+        }
+
+        const backtotop = document.querySelector('.backtop')
+        backtotop.addEventListener('click',()=>{
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        });
+
+        const left = document.querySelector('.left-slide');
+        const right = document.querySelector('.right-slide');
+        const slider = document.querySelector('.imgs');
+        let slideNumber = 1;
+        right.addEventListener('click',()=>{
+            if(slideNumber < 3){
+                slider.style.transform = `translateX(-${slideNumber*600}px)`;
+                slideNumber++;
+            }
+            else{
+                slider.style.transform = `translateX(0px)`;
+                slideNumber=1;
+            }    
+        });
+        left.addEventListener('click',()=>{
+            console.log(slider);
+            if(slideNumber > 1 && slideNumber!=3){
+                slider.style.transform = `translateX(${(slideNumber-2)*600}px)`;
+                slideNumber--;
+            }
+            else if (slideNumber==3){
+                slider.style.transform = `translateX(0px)`;
+                slideNumber=1;
+            }
+            
+        });
+
+
+
+        const left2 = document.querySelector('.left-slide2');
+        const right2 = document.querySelector('.right-slide2');
+        const slider2 = document.querySelector('.imgs2');
+        let slideNumber2 = 1;
+        right2.addEventListener('click',()=>{
+            if(slideNumber2 < 5){
+                slider2.style.transform = `translateX(-${slideNumber2*380}px)`;
+                slideNumber2++;
+            }
+            else{
+                slider2.style.transform = `translateX(0px)`;
+                slideNumber2=1;
+            }    
+        });
+        left2.addEventListener('click',()=>{
+            if(slideNumber2 > 1 && slideNumber2!=5){
+                slider2.style.transform = `translateX(${(slideNumber2-2)*380}px)`;
+                slideNumber2--;
+            }
+            else if (slideNumber2==5){
+                slider2.style.transform = `translateX(0px)`;
+                slideNumber2=1;
+            }
+            
+        });
+
+        const left3 = document.querySelector('.left-slide3');
+        const right3 = document.querySelector('.right-slide3');
+        const slider3 = document.querySelector('.imgs3');
+        let slideNumber3 = 1;
+        right3.addEventListener('click',()=>{
+            if(slideNumber3 < 4){
+                slider3.style.transform = `translateX(-${slideNumber3*520}px)`;
+                slideNumber3++;
+            }
+            else{
+                slider3.style.transform = `translateX(0px)`;
+                slideNumber3=1;
+            }    
+        });
+        left3.addEventListener('click',()=>{
+            if(slideNumber3 > 1 && slideNumber3!=4){
+                slider3.style.transform = `translateX(${(slideNumber3-2)*520}px)`;
+                slideNumber3--;
+            }
+            else if (slideNumber3==4){
+                slider3.style.transform = `translateX(0px)`;
+                slideNumber3=1;
+            }
+            
+        });
+    </script>
+</body>
+</html>
+
+
+
+
+                
